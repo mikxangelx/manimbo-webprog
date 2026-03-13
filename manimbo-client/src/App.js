@@ -10,7 +10,7 @@ function App() {
           Name: Mika Angela Manimbo<br />
           Email: manimbomika@gmail.com <br />
           Birthday: July 1, 2002 <br />
-          Place of Birth: Manila
+          
         </p>
       </header>
     </div>

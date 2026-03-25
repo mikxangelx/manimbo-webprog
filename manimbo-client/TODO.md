@@ -1,0 +1,3 @@
+- [x] Re-compact navbar sizing in `src/components/NavBar.jsx` (height/text/padding/gaps)
+- [x] Verify navbar visual balance against hero section
+- [x] Mark completed tasks

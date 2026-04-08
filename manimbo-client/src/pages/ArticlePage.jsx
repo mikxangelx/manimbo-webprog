@@ -12,26 +12,27 @@ const ArticlePage = () => {
       <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
   <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
 
-    {/* LEFT SIDE (TEXT) */}
-    <div>
-      <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
-        Articles
-      </p>
+    
+    <div className="flex flex-col justify-center items-center text-center max-w-xl mx-auto">
 
-      <h1 className="max-w-xl text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
-        Stories Worth Sharing
-      </h1>
+  <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
+    Articles
+  </p>
 
-      <p className="mt-4 max-w-lg text-sm leading-7 text-zinc-600 sm:text-base">
-        This is where simple moments turn into meaningful stories—
-        a space for reflections, creativity, and pieces of everyday life.
-      </p>
+  <h1 className="text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
+    Stories Worth Sharing
+  </h1>
 
-      <div className="mt-6">
-        <Button to="/">Back Home</Button>
-      </div>
-    </div>
+  <p className="mt-4 text-sm leading-7 text-zinc-600 sm:text-base">
+    This is where simple moments turn into meaningful stories—
+    a space for reflections, creativity, and pieces of everyday life.
+  </p>
 
+  <div className="mt-6 flex justify-center">
+    <Button to="/">Back Home</Button>
+  </div>
+
+</div>
     <div>
       <img
         src={img10}

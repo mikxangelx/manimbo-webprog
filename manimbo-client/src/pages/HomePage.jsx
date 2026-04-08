@@ -12,12 +12,13 @@ const HomePage = () => {
       <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
 
-          <div>
+          <div className="flex flex-col justify-center items-center text-center">
+
             <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
-               Highlight Section
+              Highlight Section
             </p>
 
-            <h1 className="max-w-xl text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
+            <h1 className="text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
               Welcome to Club Creative
             </h1>
 
@@ -26,10 +27,13 @@ const HomePage = () => {
               From random ideas to real-life moments—this is where creativity lives.
             </p>
 
-            <div className="mt-6">
+            {/* ✅ BUTTON CENTERED */}
+            <div className="mt-6 flex justify-center">
               <Button to="/about" variant="primary">Learn More</Button>
             </div>
+
           </div>
+
           
            <img
               src={img4}

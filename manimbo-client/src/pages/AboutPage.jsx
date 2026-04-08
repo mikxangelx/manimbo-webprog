@@ -18,26 +18,28 @@ const AboutPage = () => {
                         className="w-full h-[650px] object-cover rounded-[1.25rem]"
                         />
 
-          <div>
-            <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
-              About Section
-            </p>
+        <div className="flex flex-col justify-center items-center text-center max-w-xl mx-auto">
 
-            <h1 className="max-w-xl text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
-             Get to Know Me
-            </h1>
+  <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
+    About Section
+  </p>
 
-            <p className="mt-4 max-w-lg text-sm leading-7 text-zinc-600 sm:text-base">
-              Hi, I’m the person behind Club Creative.
-              I created this space to share my thoughts, experiences, and little moments in life.
-              This blog is where creativity meets reality—simple, honest, and real.
-            </p>
+  <h1 className="text-3xl font-bold leading-tight text-zinc-900 sm:text-4xl">
+    Get to Know Me
+  </h1>
 
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Button to="/" variant="primary">Back Home</Button>
-              <Button to="/articles">Read Articles</Button>
-            </div>
-          </div>
+  <p className="mt-4 text-sm leading-7 text-zinc-600 sm:text-base">
+    Hi, I’m the person behind Club Creative.
+    I created this space to share my thoughts, experiences, and little moments in life.
+    This blog is where creativity meets reality—simple, honest, and real.
+  </p>
+
+  <div className="mt-6 flex flex-wrap justify-center gap-3">
+    <Button to="/" variant="primary">Back Home</Button>
+    <Button to="/articles">Read Articles</Button>
+  </div>
+
+</div>
 
         </div>
       </section>

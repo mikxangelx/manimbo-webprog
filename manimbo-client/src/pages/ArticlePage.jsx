@@ -36,7 +36,7 @@ const ArticlePage = () => {
       <img
         src={img10}
         alt="Feature"
-        className="w-full h-[350px] object-cover rounded-[1.25rem]"
+        className="w-full h-[650px] object-cover rounded-[1.25rem]"
       />
     </div>
 
@@ -60,7 +60,7 @@ const ArticlePage = () => {
             <img
               src={img14}
               alt="Feature"
-              className="w-full h-[200px] object-cover rounded-[1.25rem]"
+              className="w-full h-[400px] object-cover rounded-[1.25rem]"
             />
             </div>
 
@@ -84,7 +84,7 @@ const ArticlePage = () => {
             <img
               src={img11}
               alt="Feature"
-              className="w-full h-[200px] object-cover rounded-[1.25rem]"
+              className="w-full h-[400px] object-cover rounded-[1.25rem]"
             />
             </div>
 
@@ -108,7 +108,7 @@ const ArticlePage = () => {
             <img
               src={img12}
               alt="Feature"
-              className="w-full h-[200px] object-cover rounded-[1.25rem]"
+              className="w-full h-[400px] object-cover rounded-[1.25rem]"
             />
             </div>
 
@@ -132,7 +132,7 @@ const ArticlePage = () => {
             <img
               src={img13}
               alt="Feature"
-              className="w-full h-[200px] object-cover rounded-[1.25rem]"
+              className="w-full h-[400px] object-cover rounded-[1.25rem]"
             />
             </div>
 

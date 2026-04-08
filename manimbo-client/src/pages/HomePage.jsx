@@ -34,7 +34,7 @@ const HomePage = () => {
            <img
               src={img4}
               alt="Feature"
-              className="w-full h-[350px] object-cover rounded-[1.25rem]"
+              className="w-full h-[650px] object-cover rounded-[1.25rem]"
               />
           
 

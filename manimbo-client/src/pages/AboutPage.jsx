@@ -15,7 +15,7 @@ const AboutPage = () => {
           <img
                         src={img5}
                         alt="Feature"
-                        className="w-full h-[350px] object-cover rounded-[1.25rem]"
+                        className="w-full h-[650px] object-cover rounded-[1.25rem]"
                         />
 
           <div>
@@ -123,22 +123,22 @@ const AboutPage = () => {
               <img
                         src={img6}
                         alt="Feature"
-                        className="w-full h-[180px] object-cover rounded-[1.25rem]"
+                        className="w-full h-[250px] object-cover rounded-[1.25rem]"
                         />
               <img
                         src={img7}
                         alt="Feature"
-                        className="w-full h-[180px] object-cover rounded-[1.25rem]"
+                        className="w-full h-[250px] object-cover rounded-[1.25rem]"
                         />
               <img
                         src={img8}
                         alt="Feature"
-                        className="w-full h-[180px] object-cover rounded-[1.25rem]"
+                        className="w-full h-[250px] object-cover rounded-[1.25rem]"
                         />
               <img
                         src={img9}
                         alt="Feature"
-                        className="w-full h-[180px] object-cover rounded-[1.25rem]"
+                        className="w-full h-[250px] object-cover rounded-[1.25rem]"
                         />
             </div>
 

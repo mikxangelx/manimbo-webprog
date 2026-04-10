@@ -9,8 +9,8 @@ const links = [
 
 const NavBar = () => {
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200 bg-white/70 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <header className="sticky top-0 z-50 border-b border-zinc-900/10 bg-[#f7ead7]/90 backdrop-blur-md">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
 
         {/* LOGO */}
         <NavLink to="/" className="flex items-center gap-2">

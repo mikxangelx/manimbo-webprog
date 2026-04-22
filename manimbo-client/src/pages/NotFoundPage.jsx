@@ -3,24 +3,24 @@ import logo from '../assets/logo.jpg';
 
 function NotFoundPage() {
   return (
-    <div className="flex min-h-[70vh] items-center justify-center px-6 py-16">
-      <section className="w-full max-w-2xl rounded-[2rem] border border-zinc-900/10 bg-[#f7ead7] px-8 py-14 text-center shadow-[0_18px_45px_rgba(95,74,49,0.08)] sm:px-12">
+    <div className="flex min-h-[76vh] items-center justify-center px-6 py-16">
+      <section className="w-full max-w-3xl rounded-[2.2rem] bg-[linear-gradient(135deg,#fff8ee_0%,#f7ead7_60%,#f1ddd0_100%)] px-8 py-16 text-center shadow-[0_22px_55px_rgba(95,74,49,0.12)] sm:px-12">
         <img
           src={logo}
           alt="Club Creative logo"
-          className="mx-auto h-20 w-auto object-contain sm:h-24"
+          className="mx-auto h-24 w-auto rounded-full object-contain sm:h-28"
         />
-        <p className="mt-6 text-[11px] font-semibold uppercase tracking-[0.28em] text-zinc-500">
+        <p className="mt-7 text-[11px] font-semibold uppercase tracking-[0.32em] text-[#a17f64]">
           Error 404
         </p>
-        <h1 className="mt-3 text-4xl font-semibold leading-tight text-zinc-900 sm:text-5xl">
-          This page wandered off.
+        <h1 className="mt-4 text-5xl font-semibold leading-[1.02] text-[#2f241f] sm:text-6xl">
+          This page slipped out of the story.
         </h1>
-        <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-zinc-600 sm:text-base">
-          The page you are looking for does not exist, or the link may have been
-          moved. Let&apos;s bring you back to a better place.
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-[#6e5b4d] sm:text-lg">
+          The page you were looking for cannot be found, but there is still a lot
+          to explore inside Club Creative.
         </p>
-        <div className="mt-8 flex justify-center">
+        <div className="mt-9 flex justify-center">
           <Button to="/" variant="primary">
             Back Home
           </Button>

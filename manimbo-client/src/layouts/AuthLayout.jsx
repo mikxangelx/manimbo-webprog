@@ -17,14 +17,14 @@ const AuthLayout = () => {
       <div className="absolute right-[18%] top-[16%] hidden h-24 w-24 rounded-full bg-[#fff8f1]/55 blur-3xl lg:block" />
 
       <div className="relative mx-auto flex h-screen max-w-[1440px] items-center justify-between px-4 py-5 sm:px-6 lg:px-10">
-        <main className="ml-auto w-full max-w-[28rem] lg:mr-10">
-          <div className="rounded-[2rem] border border-[#efe1d4] bg-[rgba(255,249,242,0.94)] p-6 shadow-[0_24px_60px_rgba(96,72,54,0.14)] sm:p-8">
-            <div className="mb-5 flex items-center justify-center">
+        <main className="ml-auto w-full max-w-[27rem] lg:mr-10">
+          <div className="rounded-[2rem] border border-[#efe1d4] bg-[rgba(255,249,242,0.94)] p-5 shadow-[0_24px_60px_rgba(96,72,54,0.14)] sm:p-6">
+            <div className="mb-3 flex items-center justify-center">
               <Link to="/" className="inline-flex transition duration-300 hover:opacity-80">
                 <img
                   src={logo}
                   alt="Club Creative logo"
-                  className="h-10 w-auto object-contain"
+                  className="h-8 w-auto object-contain"
                 />
               </Link>
             </div>

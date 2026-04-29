@@ -83,3 +83,56 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  body {
+    background: white;
+  }
+}
+
+@media print {
+
+  /* HIDE DASH LAYOUT ELEMENTS */
+  .MuiDrawer-root,
+  .MuiAppBar-root {
+    display: none !important;
+  }
+
+  /* FULL WIDTH CONTENT */
+  .MuiBox-root {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+}
+
+@media print {
+  .MuiDrawer-root,
+  .MuiAppBar-root {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+}

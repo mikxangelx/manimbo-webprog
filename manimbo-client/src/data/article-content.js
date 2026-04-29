@@ -1,7 +1,7 @@
-import img14 from './img14.jpg';
-import img11 from './img11.jpg';
-import img12 from './img12.jpg';
-import img13 from './img13.jpg';
+import img14 from "../assets/img14.jpg";
+import img11 from "../assets/img11.jpg";
+import img12 from "../assets/img12.jpg";
+import img13 from "../assets/img13.jpg";
 
 const articles = [
   {

@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
 // HomePage Structure
 import Layout from './layouts/Layout';
@@ -27,6 +27,10 @@ const routes = [
     children: [
       {
         path: '',
+        element: <Navigate to="/auth/signin" replace />,
+      },
+      {
+        path: 'home',
         element: <HomePage />,
       },
       {

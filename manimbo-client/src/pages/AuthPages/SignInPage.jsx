@@ -30,7 +30,7 @@ const SignInPage = () => {
       localStorage.setItem('email', data.email ?? email);
 
       const destination =
-        data.type === 'admin' || data.type === 'editor' ? '/dashboard' : '/';
+        data.type === 'admin' || data.type === 'editor' ? '/dashboard' : '/home';
       navigate(destination, {
         state: { firstName: data.firstName, type: data.type },
       });

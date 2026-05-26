@@ -4,7 +4,7 @@ import { LuMail } from 'react-icons/lu';
 import logo from '../assets/logo.jpg';
 
 const navLinks = [
-  { label: 'Home', to: '/' },
+  { label: 'Home', to: '/home' },
   { label: 'About', to: '/about' },
   { label: 'Articles', to: '/articles' },
 ];
@@ -34,7 +34,7 @@ const Footer = () => {
               <NavLink
                 key={link.to}
                 to={link.to}
-                end={link.to === '/'}
+                end={link.to === '/home'}
                 className="w-fit border-b border-transparent pb-1 transition duration-200 hover:border-[#9d7d65] hover:text-[#2f241f]"
               >
                 {link.label}

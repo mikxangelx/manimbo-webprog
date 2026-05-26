@@ -59,7 +59,7 @@ const ArticlesListPage = () => {
               everyday life.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Button to="/" variant="primary">
+              <Button to="/home" variant="primary">
                 Back Home
               </Button>
             </div>

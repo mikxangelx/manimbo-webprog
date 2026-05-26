@@ -21,7 +21,7 @@ function NotFoundPage() {
           to explore inside Club Creative.
         </p>
         <div className="mt-9 flex justify-center">
-          <Button to="/" variant="primary">
+          <Button to="/home" variant="primary">
             Back Home
           </Button>
         </div>

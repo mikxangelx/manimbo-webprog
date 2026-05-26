@@ -20,7 +20,7 @@ const AuthLayout = () => {
         <main className="ml-auto w-full max-w-[30rem] lg:mr-10">
           <div className="rounded-[1.25rem] border border-[#efe1d4] bg-[rgba(255,249,242,0.94)] p-4 shadow-[0_24px_60px_rgba(96,72,54,0.14)] sm:p-5">
             <div className="mb-2 flex items-center justify-center">
-              <Link to="/" className="inline-flex transition duration-300 hover:opacity-80">
+              <Link to="/home" className="inline-flex transition duration-300 hover:opacity-80">
                 <img
                   src={logo}
                   alt="Club Creative logo"

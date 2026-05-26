@@ -1,0 +1,26 @@
+{
+  "name": "manimbo-server",
+  "version": "1.0.0",
+  "description": "MERN backend for the Manimbo Web Programming Lab Activity 7.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed:users": "node scripts/seedUsers.js"
+  },
+  "keywords": ["mern", "express", "mongoose", "lab-act7"],
+  "author": "Manimbo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

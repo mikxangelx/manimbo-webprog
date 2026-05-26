@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push *)",
+      "Bash(cmdkey /list)",
+      "Bash(findstr /i github)",
+      "PowerShell(cmdkey /delete:git:https://github.com)",
+      "PowerShell(cmdkey /delete:\"GitHub - https://api.github.com/Josh-Mrzn\")"
+    ]
+  }
+}
